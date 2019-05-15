@@ -1,16 +1,21 @@
 html, body{
-   background-color: white;
+   background-color: #F8F8FF;
    margin: 0;
    padding: 0;
    height: 100%;
+   width: 100%;
+}
+
+#area {
+    height: 80%;
+    width: 100%;
 }
 
 .title {
-    width: 100%;
     text-align: center;
     font-family: 'Roboto', sans-serif;
     font-weight: bold;
-    font-size: 7vw;
+    font-size: 10vw;
 }
 
 p {
@@ -37,32 +42,53 @@ p {
 }
 
 .name {
-    width: 30vw;
-    height: 8vh;
-    background-color: #101070;
-    margin: auto;
-    font-size: 3vh;
+    width: 80vw;
+    height: 6vh;
+    background-color: #102C44;
+    margin-left: 9.5vw;
+    font-size: 3.5vh;
+    padding-bottom: 3vh; 
     color: white;
-    border-width: 6px;
+    text-align: center;
+    border-width: 8px;
+    border-color: #375873;
+    border-style: solid;
 }
 
 .picture {
-    width: 40vw;
-    height: 20vh;
+    width: 80vw;
+    height: 30vh;
     background-color: #FFAD02;
-    margin: auto;
+    margin: 1vh 9.5%;
     border-radius: 20px;
     font-size: 3vh;
     color: white;
+    border-color: #C78700;
+    border-style: solid;
+    border-width: 8px;
+}
+
+.gif {
+    width: 50vw;
+    height: 25vh;
+    margin-left: 15vw;
+    margin-top: 2.5vh; 
 }
 
 .caption {
-    width: 60vw;
-    height: 8vh;
-    background-color: #101070;
-    font-size: 3vh;
-    color: white;
-    margin: auto;
+    min-width: 80vw;
+    min-height: 6vh;
+    background-color: #FFFFF0;
+    margin: 2vh 9% ;
+    border-color: #FDE8CF;
+    border-style: solid;
+    border-width: 6px;
+}
+
+.captiontext {
+    font-size: 1vh;
+    color: black;
+    font-family: Verdana;
 }
 
 #time{
@@ -79,7 +105,6 @@ p {
 }
 
 .time0 > p{
-    font-size: px;
     font-family: Arial;
     font-weight: bold;
     text-align: center;
@@ -91,16 +116,20 @@ p {
     font-weight: bold;
     text-align: center;
     border-radius: 5px;
-    color: #101070;
+    color: #102C44;
 }
 
 #sidebar {
     position: fixed;
     width: 10vh;
-    height: 100%;
-    background: #429DFF;
+    height: 99%;
+    background: #FFFFF0;
     left: -10vh;
     transition: all 500ms linear;
+    color: black;
+    border-right: groove 5px #C0C0C0;
+    border-bottom: groove 5px #C0C0C0;
+    font-size: 20px;
 }
 
 #sidebar.active {
@@ -108,7 +137,7 @@ p {
 }
 
 #sidebar > ul > li {
-    color: rgba(230,230,230,0.9);
+    color: black;
     list-style: none;
     padding: 15px 10px;
     border-bottom: 1px solid rgba(100,100,100,0.3);
@@ -124,7 +153,7 @@ p {
     display: block;
     width: 30px;
     height: 5px;
-    background: #151719;
+    background: #102C44;
     margin: 3px 0px;
 }
 
@@ -134,23 +163,96 @@ p {
     margin: inherit;
     margin-bottom: 5%;
 }
-
-.button {
-    font-size: 3.9vw;
+.daily {
+    border-bottom: #102C44;
 }
 
-.block {
-    border-
+.dayone {
+    margin-top: 10vh;
+}
+
+.top-bar {
+    top: 0px;
+    position: fixed;
+    background-color: white;
+    height: 6vh;
+    width: 100%;
+    box-shadow: bottom;
+    border-bottom: groove 5px;
+    margin-top: 0px;
+}
+
+.head-title {
+    font-size: 50px;
+    margin-top: 0px;
+}
+
+.head-title-text {
+    padding: 0px;
+    margin-top: 30px;
+}
+
+.bottom-bar {
+    bottom: 0px;
+    position: fixed;
+    background-color: white;
+    height: 6vh;
+    width: 100%;
+    box-shadow: top;
+    border-top: groove 5px;
+    margin-top: 0px;
+}
+
+.home {
+    height: 100%;
+    width: vw;
+    float: left;
+}
+
+
+.info {
+    height: 100%;
+    width: 30vw;
+    float: right;
+}
+
+
+.button {
+    font-size: 10vw;
+    background-color: white;
+    border: none;
+    color: #102C44;
+    margin: 0px 30%;\
+    float: left;
+}
+
+span {
+    color: #102C44;
+}
+
+.stopper {
+    font-size: 30px;
+    margin-left: 20%;
+    text-align: center;
 }
 
 .blue {
-    color: #101070;
+    font-size: 4vh;
 }
 
-.back-button {
-    color: #FFAD02;
+.pressy {
+    margin-left: 6vh;
+    margin-bottom: 10vh;
 }
 
-.daily {
-    border-bottom: #101070;
+#button{
+  font-family: lora;
+  background-color: #FFAD00;
+  text-align: center;
+  font-size: 5vw;
+  width: 80vw;
+  height: 5vh;
+  border-radius: 15px;
+  border-color: #101070;
+  color: white;
 }

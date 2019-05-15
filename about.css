@@ -1,3 +1,8 @@
+html, body {
+  height: 100%;
+  width: 100%;
+}
+
 .page {
    width: 100vw;
    height: 100vh;
@@ -16,17 +21,17 @@
 
 .titlefrl {
   border-style: solid;
-		border-width: 5px;
-		border-radius: 4px;
-		border-color: #101070;
+    border-width: 5px;
+    border-radius: 4px;
+    border-color: #102C44;
 }
 
 .requirements {
   text-align: left;
   font-family: 'Open Sans', sans-serif;
-  width: 80vw;
+  width: 100%;
   border: 15px #071AAF;
-  margin-left: 13%;
+  margin-left: 0%;
   margin-top: 10vh;
   font-size: 4.5vw;
 }
@@ -34,7 +39,7 @@
 #header {
  height: 5vh;
   width: 120vw;
-  background-color: #071AAF;
+  background-color: #102C44;
   display: inline-block;
   border-style: solid;
   border-radius: 10px;
@@ -57,15 +62,14 @@
    width: 30vw;
  border: 15px;
    margin-top: 0px;
-   margin-left: 13%;
- 
-
+   margin-left: 0%;
 }
 
 #schedule {
    width: 190vw;
    min-height: 60vh;
    border-radius: 15px;
+   margin-right: 5px;
 }
 
 .pagechanger {
@@ -78,3 +82,44 @@
 .button {
    font-size: 3.9vw;
 } 
+
+.bottom-bar {
+    bottom: 0px;
+    position: fixed;
+    background-color: white;
+    height: 10vh;
+    width: 100%;
+    box-shadow: top;
+    border-top: groove 5px;
+    margin-top: 0px;
+}
+
+.home {
+    height: 100%;
+    width: vw;
+    float: left;
+}
+
+.button {
+    font-size: 15vw;
+    background-color: white;
+    border: none;
+    color: #102C44;
+    margin: 0px 30%;\
+    float: left;
+}
+
+.schedule-pic {
+  margin-left: 2%;
+}
+
+.checky {
+  height: 50px;
+  width: 50px;
+}
+
+.container {
+  margin-left: 10%;
+  width: 80%;
+  font-size: 50px;
+}
